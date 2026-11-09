@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+    <defs>
+      <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252525"/><stop offset="1" stop-color="#e9e3d5"/></linearGradient>
+      <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="7" cy="12" r="1.2" fill="#252525" opacity=".18"/><circle cx="52" cy="60" r=".8" fill="#252525" opacity=".15"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24"/></filter>
+    </defs>
+    <rect width="1600" height="1000" fill="#e9e3d5"/>
+    <rect width="1600" height="1000" fill="url(#grain)" opacity=".55"/>
+    <path d="M80 80H1520M80 920H1520" stroke="#252525" opacity=".22" stroke-width="1"/>
+    <text x="92" y="125" fill="#252525" opacity=".5" font-family="Arial,sans-serif" font-size="18" letter-spacing="7">TRIVIUM  /  VISUAL STUDY  11</text>
+    <text x="820" y="630" fill="#252525" font-family="Georgia,serif" font-size="430" letter-spacing="-35">Aa</text><path d="M830 700H1420" stroke="#252525" stroke-width="2"/><text x="840" y="770" fill="#252525" font-family="Arial,sans-serif" font-size="24" letter-spacing="12">SERIF / SANS / CONTRAST</text></svg>

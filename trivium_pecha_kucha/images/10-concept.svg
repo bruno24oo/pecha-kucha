@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+    <defs>
+      <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9ad91"/><stop offset="1" stop-color="#252525"/></linearGradient>
+      <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="7" cy="12" r="1.2" fill="#b9ad91" opacity=".18"/><circle cx="52" cy="60" r=".8" fill="#b9ad91" opacity=".15"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24"/></filter>
+    </defs>
+    <rect width="1600" height="1000" fill="#252525"/>
+    <rect width="1600" height="1000" fill="url(#grain)" opacity=".55"/>
+    <path d="M80 80H1520M80 920H1520" stroke="#b9ad91" opacity=".22" stroke-width="1"/>
+    <text x="92" y="125" fill="#b9ad91" opacity=".5" font-family="Arial,sans-serif" font-size="18" letter-spacing="7">TRIVIUM  /  VISUAL STUDY  10</text>
+    <path d="M800 220Q1050 100 1380 300T1400 800" stroke="#b9ad91" stroke-width="2" fill="none" opacity="0.30"/><path d="M870 220Q1080 160 1355 380T1365 800" stroke="#b9ad91" stroke-width="3" fill="none" opacity="0.37"/><path d="M940 220Q1110 220 1330 460T1330 800" stroke="#b9ad91" stroke-width="4" fill="none" opacity="0.44"/><path d="M1010 220Q1140 280 1305 540T1295 800" stroke="#b9ad91" stroke-width="2" fill="none" opacity="0.51"/><path d="M1080 220Q1170 340 1280 620T1260 800" stroke="#b9ad91" stroke-width="3" fill="none" opacity="0.58"/><path d="M1150 220Q1200 400 1255 700T1225 800" stroke="#b9ad91" stroke-width="4" fill="none" opacity="0.65"/><path d="M1220 220Q1230 460 1230 780T1190 800" stroke="#b9ad91" stroke-width="2" fill="none" opacity="0.72"/>
+        <circle cx="1100" cy="500" r="170" fill="none" stroke="#b9ad91" stroke-width="2"/></svg>

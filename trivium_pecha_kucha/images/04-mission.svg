@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+    <defs>
+      <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8d0bc"/><stop offset="1" stop-color="#252525"/></linearGradient>
+      <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="7" cy="12" r="1.2" fill="#d8d0bc" opacity=".18"/><circle cx="52" cy="60" r=".8" fill="#d8d0bc" opacity=".15"/></pattern>
+      <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24"/></filter>
+    </defs>
+    <rect width="1600" height="1000" fill="#252525"/>
+    <rect width="1600" height="1000" fill="url(#grain)" opacity=".55"/>
+    <path d="M80 80H1520M80 920H1520" stroke="#d8d0bc" opacity=".22" stroke-width="1"/>
+    <text x="92" y="125" fill="#d8d0bc" opacity=".5" font-family="Arial,sans-serif" font-size="18" letter-spacing="7">TRIVIUM  /  VISUAL STUDY  04</text>
+    <path d="M1100 820C830 650 900 350 1110 210C1330 350 1370 650 1100 820Z" fill="url(#stone)"/><path d="M1100 810C1100 590 1060 400 1110 220M1100 570C980 480 940 440 910 390M1100 650C1220 550 1270 500 1300 430" stroke="#252525" stroke-width="9" fill="none" opacity=".65"/>
+        <circle cx="1100" cy="500" r="300" fill="none" stroke="#d8d0bc" stroke-width="2" opacity=".3"/></svg>
